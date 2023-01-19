@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "556526853030",
+    "firebase_url": "https://ardent-zeus-default-rtdb.firebaseio.com",
+    "project_id": "ardent-zeus",
+    "storage_bucket": "ardent-zeus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556526853030:android:565fb8f958cf9ad1e2cd67",
+        "android_client_info": {
+          "package_name": "com.ardent.zeusardent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556526853030-o84cb57i3m88fp869arodeu5rm8gkgms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhMJ1yyTcQlgTrBiyIeJevzs7QPhjFAEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556526853030-o84cb57i3m88fp869arodeu5rm8gkgms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

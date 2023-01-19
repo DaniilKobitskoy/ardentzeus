@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:transitionGroup="true"
+    android:id="@+id/okno"
+    android:background="@drawable/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".allfragments.ZeusGame">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/oblako"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/oblako1"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintStart_toEndOf="@+id/adsadafaf" />
+
+    <ImageView
+        android:id="@+id/oblachnie"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/adsadafaf"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/pisdjfdskfnn"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintStart_toEndOf="@+id/adsadafaf" />
+
+    <ImageView
+        android:id="@+id/sfdsfdsfsfe"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/htgdrfsdsefrgrfvd"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintStart_toEndOf="@+id/adsadafaf" />
+
+    <ImageView
+        android:id="@+id/asdsadwadwad"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginBottom="@dimen/dp48"
+        android:src="@drawable/oblacko"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/adsadafaf" />
+
+    <ImageView
+        android:id="@+id/sfdsfscdeasdsa"
+        android:layout_width="@dimen/dp30"
+        android:layout_height="@dimen/dp30"
+        android:src="@drawable/zeus"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/adsadafaf"
+        app:layout_constraintEnd_toEndOf="@+id/adsadafaf"
+        app:layout_constraintStart_toStartOf="@+id/adsadafaf" />
+
+    <ImageView
+        android:id="@+id/sfdsfscdeasdsakbfd"
+        android:layout_width="@dimen/dp30"
+        android:layout_height="@dimen/dp30"
+        android:src="@drawable/zeus"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/pisdjfdskfnn"
+        app:layout_constraintEnd_toEndOf="@+id/pisdjfdskfnn"
+        app:layout_constraintStart_toStartOf="@+id/pisdjfdskfnn" />
+
+    <ImageView
+        android:id="@+id/dsfdsfsdfew"
+        android:layout_width="@dimen/dp30"
+        android:layout_height="@dimen/dp30"
+        android:src="@drawable/zeus"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintEnd_toEndOf="@+id/sfdsfdsfsfe"
+        app:layout_constraintStart_toStartOf="@+id/sfdsfdsfsfe" />
+
+    <ImageButton
+        android:id="@+id/zesxdcfvgbh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="@dimen/dp30"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dfdsfsasas"
+        android:layout_width="236dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="@dimen/dp12"
+        android:layout_marginEnd="@dimen/dp12"
+        android:padding="@dimen/dp30"
+        android:text="@string/asdasdasd"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <ImageView
+        android:id="@+id/afdsfdsfewf"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

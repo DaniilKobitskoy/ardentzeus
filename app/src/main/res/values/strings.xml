@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ardent Zeus</string>
+    <string name="asdasdasd">What glass is the cherry in?</string>
+    <string name="asdawdw">Victory</string>
+    <string name="ascxvvdsa">Defeat</string>
+        <string name="fasebookMainId">958542878384994</string>
+        <string name="mainmarketingclient">52711596175ff4cb3802aa49100897a6</string>
+        <string name="faseb">fb958542878384994</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
